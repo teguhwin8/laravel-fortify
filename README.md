@@ -7,7 +7,7 @@ Ada 3 cara:
 
 # Laravel Fortify 
 
-### Installation
+## Installation
 
 1. `composer require laravel/fortify`
 
@@ -39,3 +39,11 @@ Ada 3 cara:
         Fortify::resetPasswordView(function ($request) {
             return view('auth.reset-password', ['request' => $request]);
         });
+
+## Install Laravel UI Bootstrap Auth
+
+1. `composer require laravel/ui`
+
+2. `php artisan ui bootstrap --auth`
+
+3. `npm install && npm run dev`
